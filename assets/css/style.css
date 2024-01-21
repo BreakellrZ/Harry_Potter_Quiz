@@ -1,1 +1,20 @@
+/* Google Font Lakki Reddy */
 @import url('https://fonts.googleapis.com/css2?family=Lakki+Reddy&display=swap');
+
+
+/* Wildcard Selector */
+*{
+padding: 0;
+margin:0;
+box-sizing:border-box;
+}
+
+/* Main styles */
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
