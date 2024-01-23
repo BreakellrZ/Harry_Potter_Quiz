@@ -25,12 +25,12 @@ h1 {
     margin: 30px;
     text-align: center;
     font-size: 40px;
-    text-decoration: underline;
 }
 
 h3 {
     text-align: center;
     padding: 20px;
+    text-decoration: underline;
 }
 
 .quiz_area {
@@ -42,8 +42,14 @@ h3 {
 }
 
 .btn {
-    margin: 3rem;
-    padding: 1rem;
+    margin: 10px 0;
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+}
+
+.btn:hover {
+    background-color: goldenrod;
 }
 
 .scores {
@@ -55,4 +61,6 @@ h3 {
 #border {
     border: solid 2px;
     border-radius: 4pc;
+    box-shadow: 0 2px 2px #3a3a3a;
+    padding: 20px;
 }
