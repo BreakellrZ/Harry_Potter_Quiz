@@ -10,38 +10,39 @@
 
   <body>
     <div id="hero">
-    <!-- Header -->
-    <header><h1>Harry Potter Quiz</h1></header>
+      <!-- Header -->
+      <header><h1>Harry Potter Quiz</h1></header>
 
-    <!-- Main section Questions & Answers -->
-    <section>
-      <div class="quiz_area">
-        <div id="question"></div>
+      <!-- Main section Questions & Answers -->
+      <section>
+        <div class="quiz_area">
+          <div id="border">
+            <div id="question"><h3>This is the question area?</h3></div>
 
-        <div class="buttons buttons_top">
-          <button class="btn" id="btn_1">Choice 1</button>
-          <button class="btn" id="btn_2">Choice 2</button>
+            <div class="buttons buttons_top">
+              <button class="btn" id="btn_1">Choice 1</button>
+              <button class="btn" id="btn_2">Choice 2</button>
+            </div>
+
+            <div class="buttons buttons_bottom">
+              <button class="btn" id="btn_3">Choice 3</button>
+              <button class="btn" id="btn_4">Choice 4</button>
+            </div>
+          </div>
         </div>
+      </section>
 
-        <div class="buttons buttons_bottom">
-          <button class="btn" id="btn_3">Choice 3</button>
-          <button class="btn" id="btn_4">Choice 4</button>
-        </div>
-      </div>
-    </section>
+      <section>
+        <div class="scores" id="correct_score"><p>Correct Scores</p></div>
+        <div class="scores" id="incorrect_score"><p>Incorrect Scores</p></div>
+      </section>
 
-    <section>
-      <div class="scores" id="correct_score"></div>
-      <div class="scores" id="incorrect_score"></div>
-    </section>
-
-    <!-- Scripts for JavaScript and FontAwesome Kit -->
-    <script src="assets/js/script.js"></script>
-    <script
-      src="https://kit.fontawesome.com/2ae31dc990.js"
-      crossorigin="anonymous"
-    ></script>
-    
+      <!-- Scripts for JavaScript and FontAwesome Kit -->
+      <script src="assets/js/script.js"></script>
+      <script
+        src="https://kit.fontawesome.com/2ae31dc990.js"
+        crossorigin="anonymous"
+      ></script>
     </div>
   </body>
 </html>

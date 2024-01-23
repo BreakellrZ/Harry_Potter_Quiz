@@ -9,11 +9,13 @@
     box-sizing: border-box;
 }
 
+
+
+
 /* Main styles */
-#hero {
-    background: url("../images/harry\ potter\ \(1\).webp") no-repeat center center/cover;
-    width:100%;
-    height:100vh;
+body {
+    background: url("../images/harry_potter_hero.webp") no-repeat center center/cover;
+    width: 100%;
 }
 
 h1 {
@@ -25,15 +27,27 @@ h1 {
     font-size: 40px;
     text-decoration: underline;
 }
+
+h3 {
+    text-align: center;
+    padding: 20px;
+}
+
 .quiz_area {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 70vh;
 }
 
 .btn {
     margin: 3rem;
     padding: 1rem;
+}
+
+.scores {
+    color: white;
+    display: flex;
+    justify-content: center;
 }
