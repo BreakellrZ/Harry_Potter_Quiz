@@ -37,7 +37,6 @@ h1 {
 h3 {
     text-align: center;
     padding: 20px;
-    text-decoration: underline;
     border: outset 5px;
     background-color: rgb(255 255 255 / 50%);
     border-radius: 2pc;
@@ -59,7 +58,6 @@ h3 {
     border-radius: 1pc;
     box-shadow: 0 2px 2px #3a3a3a;
     padding: 30px;
-    /* margin: 20px; */
     background-color: rgb(0 0 0 / 30%);
 }
 
@@ -102,6 +100,16 @@ p {
 #correct_score {
     padding: 10px;
     color: #65a700;
+}
+
+
+footer {
+    display: flex;
+    width: 100%;
+    z-index: 98;
+    padding: 30px 10px;
+    justify-content: space-evenly;
+    bottom: 0;
 }
 
 /* Media Querys */
