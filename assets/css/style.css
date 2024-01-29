@@ -83,16 +83,13 @@ h3 {
 
 }
 
-#start_button {
-    font-size: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 7px;
+#start_game {
+    padding: 10px;
+    margin-top: 20px;
 }
 
-#start_button:hover {
-    background-color: #f5c17d;
+#start_game:hover {
+    background-color: #05ff3b
 }
 
 
@@ -127,12 +124,6 @@ h3 {
 .lname {
     margin-top: 5px;
 }
-
-#start_game {
-    padding: 10px;
-    margin-top: 20px;
-}
-
 
 /* Scores */
 #scores {
@@ -223,6 +214,19 @@ footer {
         font-size: 70px;
     }
 
+    /* Intro */
+    #border {
+        font-size: 35px;
+    }
+
+    h2 {
+        margin-bottom: 40px;
+    }
+
+    .questions {
+        font-size: 30px;
+    }
+
     /* Quiz_area */
     h3 {
         font-size: 40px;
@@ -243,6 +247,50 @@ footer {
     /* Scores */
     .scores {
         font-size: 40px;
+    }
+
+}
+
+@media screen and (min-width: 2560px) {
+
+    /* Header */
+    h1 {
+        font-size: 80px;
+    }
+
+    /* Intro */
+    #border {
+        font-size: 45px;
+    }
+
+    h2 {
+        margin-bottom: 50px;
+    }
+
+    .questions {
+        font-size: 40px;
+    }
+
+    /* Quiz_area */
+    h3 {
+        font-size: 50px;
+    }
+
+    #question {
+        margin-bottom: 30px;
+    }
+
+    #border {
+        padding: 50px;
+    }
+
+    .btn {
+        font-size: 32px;
+    }
+
+    /* Scores */
+    .scores {
+        font-size: 50px;
     }
 
 }
