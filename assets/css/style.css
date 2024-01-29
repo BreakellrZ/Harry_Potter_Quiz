@@ -55,7 +55,7 @@ h3 {
     border: solid 2px;
     border-radius: 1pc;
     box-shadow: 0 2px 2px #3a3a3a;
-    padding: 30px;
+    padding: 20px;
     background-color: rgb(0 0 0 / 30%);
 }
 
@@ -77,6 +77,62 @@ h3 {
 .btn:hover {
     background-color: #f5c17d;
 }
+
+.hide {
+    display: none;
+
+}
+
+#start_button {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+}
+
+#start_button:hover {
+    background-color: #f5c17d;
+}
+
+
+/* Start Quiz form */
+h2#Welcome {
+    font-size: 20px;
+    margin: 10px 0px;
+    background-color: #ecad5f;
+    border: 2px solid;
+    padding: 5px;
+    text-align: center;
+}
+
+#form {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    background-color: #ecad5f;
+    color: black;
+    border: solid 2px;
+    border-radius: 1pc;
+    padding: 10px;
+
+
+}
+
+.fname {
+    margin-bottom: 5px;
+}
+
+.lname {
+    margin-top: 5px;
+}
+
+#start_game {
+    margin-top: 5px;
+}
+
 
 /* Scores */
 #scores {
@@ -108,7 +164,7 @@ p {
     color: #65a700;
 }
 
-
+/* Footer */
 footer {
     display: flex;
     width: 100%;
@@ -120,8 +176,8 @@ footer {
 
 /* Media Querys */
 
-/* For Form Media query max-height 540px */
-@media (max-height: 540px) {
+/* For Form Media query max-height 700px */
+@media (max-height: 700px) {
     .quiz_area {
         height: auto;
     }
@@ -134,6 +190,17 @@ footer {
     h1 {
         font-size: 60px;
     }
+
+    /* Intro */
+    #border {
+        font-size: 30px;
+    }
+
+    h2 {
+        margin: bottom 35px;
+        font-size: 35px;
+    }
+
 
     /* Quiz_area */
     h3 {

@@ -26,6 +26,19 @@
       <section>
         <div class="quiz_area">
           <div id="border">
+
+          <h2 class="hide_click" id="Welcome"> Welcome. To play the quiz enter your full name and click the start quiz button. </h2>
+                <form method="POST" action="https://formdump.codeinstitute.net" id="form">
+                    <label for="fname" class="label fname">First Name : </label>
+                    <input type="text" name="first_name" placeholder="Colin" required id="fname" class="questions fname">
+            
+                    <label for="lname" class="label lname">Last Name: </label>
+                    <input type="text" name="second_name" placeholder="Galvin" required id="lname" class="questions lname">
+            
+                    <input type="button" name="submit" value="Start Quiz" id="start_game" class="questions">
+                </form>
+
+            <div class="hide"> 
             <div id="question"><h3>This is the question area?</h3></div>
 
             <div class="buttons buttons_top">
@@ -42,9 +55,12 @@
 
       <!--Score counter-->
       <section>
+        <div class="hide">
         <div id="scores">
         <div class="scores" id="correct_score"><p>Correct Scores:</p></div>
         <div class="scores" id="incorrect_score"><p>Incorrect Scores:</p></div>
+        </div>
+    </div>
         </div>
       </section>
 
