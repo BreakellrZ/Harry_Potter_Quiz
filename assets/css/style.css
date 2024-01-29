@@ -97,10 +97,9 @@ h3 {
 
 
 /* Start Quiz form */
-h2#Welcome {
-    font-size: 20px;
+#Welcome {
     margin: 10px 0px;
-    background-color: #ecad5f;
+    background-color: #650d13;
     border: 2px solid;
     padding: 5px;
     text-align: center;
@@ -130,7 +129,8 @@ h2#Welcome {
 }
 
 #start_game {
-    margin-top: 5px;
+    padding: 10px;
+    margin-top: 20px;
 }
 
 
@@ -197,8 +197,11 @@ footer {
     }
 
     h2 {
-        margin: bottom 35px;
-        font-size: 35px;
+        margin-bottom: 35px;
+    }
+
+    .questions {
+        font-size: 25px;
     }
 
 
