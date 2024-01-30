@@ -14,8 +14,9 @@
 
 /* Main styles */
 body {
-    background: url("../images/harry_potter_hero.webp") no-repeat center center/cover;
+    background: url("../images/hogwarts.png") no-repeat center center/cover;
     width: 100%;
+
 }
 
 /* Header */
@@ -31,6 +32,8 @@ h1 {
     text-align: center;
     font-size: 40px;
     font-family: "Lakki Reddy", sans-serif;
+    border:solid 2px;
+    background-color: #ecad5f;
 }
 
 /* Quiz area */
