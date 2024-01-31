@@ -53,6 +53,12 @@ h4 {
 margin:10px;
 }
 
+p {
+    color:white;
+    margin:40px;
+    font-size:25px;
+}
+
 #choices {
     color: #ecad5f;
     margin:50px;
