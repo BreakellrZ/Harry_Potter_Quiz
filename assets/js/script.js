@@ -55,16 +55,16 @@ function playGame(userChoice) {
   result.textContent = `You chose ${userChoice}, computer chose ${computerChoice}.` 
 
   if (userChoice === computerChoice) {
-    result.textContent += ' It\'s a tie!';
+    result.textContent + ' WOW, a tie!';
 } else if (
-    (userChoice === 'expelliarmus' && computerChoice === 'accio') ||
-    (userChoice === 'accio' && computerChoice === 'confundo') ||
-    (userChoice === 'stupefy' && computerChoice === 'expelliarmus')
-    (userChoice === 'confundo' && computerChoice === 'petrificus Totalus')
-    (userChoice === 'petrificus Totalus' && computerChoice === 'stupefy')
+    (userChoice === 'expelliarmus' && computerChoice === 'stupefy','confundo') ||
+    (userChoice === 'accio' && computerChoice === 'expelliarmus', 'petrificus Totalus') ||
+    (userChoice === 'stupefy' && computerChoice === 'accio','confundo')
+    (userChoice === 'confundo' && computerChoice === 'accio, petrificus Totalus')
+    (userChoice === 'petrificus Totalus' && computerChoice === 'stupefy, expelliarmus')
     ) {
-      result.textContent += ' You win!';
+      result.textContent + ' YOU WIN THIS ROUND!';
   } else {
-      result.textContent += ' You lose.';
+      result.textContent + ' You lose this round.';
   }
 }
