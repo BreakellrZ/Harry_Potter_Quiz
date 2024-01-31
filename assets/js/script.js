@@ -57,11 +57,16 @@ function playGame(userChoice) {
   if (userChoice === computerChoice) {
     result.textContent + ' WOW, a tie!';
 } else if (
-    (userChoice === 'expelliarmus' && computerChoice === 'stupefy','confundo') ||
-    (userChoice === 'accio' && computerChoice === 'expelliarmus', 'petrificus Totalus') ||
-    (userChoice === 'stupefy' && computerChoice === 'accio','confundo')
-    (userChoice === 'confundo' && computerChoice === 'accio, petrificus Totalus')
-    (userChoice === 'petrificus Totalus' && computerChoice === 'stupefy, expelliarmus')
+    (userChoice === 'expelliarmus' && computerChoice === 'confundo') ||
+    (userChoice === 'expelliarmus' && computerChoice === 'stupefy') ||
+    (userChoice === 'accio' && computerChoice === 'expelliarmus') ||
+    (userChoice === 'accio' && computerChoice === 'petrificus Totalus') ||
+    (userChoice === 'stupefy' && computerChoice === 'accio') ||
+    (userChoice === 'stupefy' && computerChoice === 'confundo') ||
+    (userChoice === 'confundo' && computerChoice === 'accio') ||
+    (userChoice === 'confundo' && computerChoice === 'petrificus Totalus') ||
+    (userChoice === 'petrificus Totalus' && computerChoice === 'stupefy')
+    (userChoice === 'petrificus Totalus' && computerChoice === 'expelliarmus')
     ) {
       result.textContent + ' YOU WIN THIS ROUND!';
   } else {
