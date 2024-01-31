@@ -48,19 +48,14 @@
             </div>
 
             <div class="buttons">
-              <button class="btn" className="btn" id="btn_1">Accio</button>
-              <button class="btn" className="btn" id="btn_2">Petrificus Totalus</button>
-              <button class="btn" className="btn" id="btn_3">Stupefy</button>
-              <button class="btn" className="btn" id="btn_4">Expelliarmus</button>
-              <button class="btn" className="btn" id="btn_5">Confundo</button>
-              
+              <button class="btn" id="btn_1" onclick="playGame('accio')">Accio</button>
+              <button class="btn" id="btn_2" onclick="playGame('petrificus Totalus')">Petrificus Totalus</button>
+              <button class="btn" id="btn_3" onclick="playGame('stupefy')">Stupefy</button>
+              <button class="btn" id="btn_4" onclick="playGame('expelliarmus')">Expelliarmus</button>
+              <button class="btn" id="btn_5" onclick="playGame('confundo')">Confundo</button>
               </div>
 
-              <div id="choices">
-              <h4> Draco's choice:<span id="computer-choice"></span> </h4>
-              <h4> Your choice:<span id="user-choice"></span> </h4>
-              <h4> Result: <span id="result"></span></h4>
-              </div>
+              <p id="result"> Result: </p>
 
           </div>
       </section>
