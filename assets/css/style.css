@@ -53,10 +53,11 @@ h4 {
 margin:10px;
 }
 
-p {
+#result {
     color:white;
-    margin:40px;
-    font-size:25px;
+    margin:30px;
+    font-size:10px;
+    text-align:center;
 }
 
 #choices {
@@ -220,9 +221,19 @@ footer {
 
 
 
-    /* Quiz_area */
+    /* Game_area */
     h3 {
         font-size: 30px;
+    }
+
+    #result {
+        color:white;
+        margin:80px;
+        font-size:35px;
+    }
+
+    .btn {
+        font-size:30px;
     }
 
     /* Scores */
@@ -260,7 +271,7 @@ footer {
         margin: 30px;
     }
 
-    /* Quiz_area */
+    /* Game_area */
     h3 {
         font-size: 40px;
     }
@@ -271,6 +282,12 @@ footer {
 
     #border {
         padding: 40px;
+    }
+
+    #result {
+        color:white;
+        margin:60px;
+        font-size:35px;
     }
 
     .btn {
@@ -320,7 +337,7 @@ footer {
         font-size: 40px;
     }
 
-    /* Quiz_area */
+    /* Game_area */
     h3 {
         font-size: 50px;
     }
@@ -331,6 +348,12 @@ footer {
 
     #border {
         padding: 50px;
+    }
+
+    #result {
+        color:white;
+        margin:70px;
+        font-size:45px;
     }
 
     .btn {
@@ -379,9 +402,10 @@ footer {
         font-size: 80px;
     }
 
-    /* Quiz_area */
+    /* Game_area */
     h3 {
-        font-size: 50px;
+        font-size: 150px;
+        margin:100px;
     }
 
     #question {
@@ -392,8 +416,15 @@ footer {
         padding: 50px;
     }
 
+    #result {
+        color:white;
+        margin:70px;
+        font-size:75px;
+    }
+
     .btn {
-        font-size: 32px;
+        font-size: 72px;
+        margin:20px;
     }
 
     /* Scores */
