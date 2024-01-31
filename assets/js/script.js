@@ -3,36 +3,68 @@ document.getElementById('start_game').addEventListener('click', function(){
   document.getElementById('start_screen').style.display = "none"
   document.getElementById('main').style.display = 'flex'
 }) 
-const questions = [
-    {
-      question: "What house is Harry in?",
-      choices: ["Griffindor", "Slytherin", "Hufflepuff", "Ravenclaw"],
-      answer: "Griffindor",
-    },
 
-    {
-      question: "Name the killing curse?",
-      choices: ["Lumos", "Expelliarmus", "Avada Kedavra", "Levioso"],
-      answer: "Avada Kedavra",
-    },
+/*
+// Game variables
+const computerChoiceDisplay = document.getElementById('draco');
+const userChoiceDisplay = document.getElementById('user');
+const resultDisplay = document.getElementById('result');
+const possiblechoices = document.getElementsByClassName('btn')
+let userChoice;
+let dracoChoice;
+let result_display;
 
-    {
-      question: "What is Harrys owl called?",
-      choices: ["Hedwig", "Scabbers", "Nagini", "Ted"],
-      answer: "Hedwig",
-    },
+// Function when you click a button
+possiblechoices.addEventListener('click', function() {
+userChoice = 
+generate_Draco_choice()
+})
 
-    {
-      question: "Who is Draco malfoys dad?",
-      choices: ["Sirius", "Dumbledore", "Voldemort", "Lucius"],
-      answer: "Lucius",
-      },
+// Dracos choices
+function generate_Draco_choice() {
+  const randomNumber = Math.floor(Math.random() * 5 ) + 1
 
-      {
-      question: "what relation was sirius black to Harry?",
-      choices: ["GrandFather", "GodFather", "Uncle", "Cousin"],
-      answer: "GodFather",
-      },
+  if (randomNumber === 1) {
+    dracoChoice = 'Accio'
+  }
 
-  ]
-  
+  if (randomNumber === 2) {
+    dracoChoice = 'Petrificus Totalus'
+  }
+
+  if (randomNumber === 3) {
+    dracoChoice = 'Stupefy'
+  }
+
+  if (randomNumber === 4) {
+    dracoChoice = 'Expelliarmus'
+  }
+
+  if (randomNumber === 5) {
+    dracoChoice = 'Confundo'
+  }
+  userChoiceDisplay.innerHTML = dracoChoice
+}
+*/
+
+function playGame(userChoice) {
+  const possibleActions = ['accio', 'petrificus Totalus', 'stupefy', 'expelliarmus', 'confundo'];
+  const computerChoice = possibleActions[Math.floor(Math.random() * possibleActions.length)];
+
+  const result = document.getElementById('result');
+  result.textContent = `You chose ${userChoice}, computer chose ${computerChoice}.` 
+
+  if (userChoice === computerChoice) {
+    result.textContent += ' It\'s a tie!';
+} else if (
+    (userChoice === 'expelliarmus' && computerChoice === 'accio') ||
+    (userChoice === 'accio' && computerChoice === 'confundo') ||
+    (userChoice === 'stupefy' && computerChoice === 'expelliarmus')
+    (userChoice === 'confundo' && computerChoice === 'petrificus Totalus')
+    (userChoice === 'petrificus Totalus' && computerChoice === 'stupefy')
+    ) {
+      result.textContent += ' You win!';
+  } else {
+      result.textContent += ' You lose.';
+  }
+}
