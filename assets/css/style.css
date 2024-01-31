@@ -131,8 +131,8 @@ h3 {
     background-color: #650d13;
 }
 
-.fname {
-    margin-bottom: 5px;
+#fname {
+    margin-left: 5px;
 }
 
 .questions {
@@ -219,6 +219,14 @@ footer {
         font-size: 25px;
     }
 
+    #fname {
+        font-size: 20px
+    }
+
+    #button_start {
+        margin: 20px;
+    }
+
     .label {
         font-size: 30px;
     }
@@ -262,6 +270,10 @@ footer {
         font-size: 33px;
     }
 
+    #button_start {
+        margin: 30px;
+    }
+
     /* Quiz_area */
     h3 {
         font-size: 40px;
@@ -287,6 +299,65 @@ footer {
 
 }
 
+@media screen and (min-width: 1440px) {
+
+    /* Header */
+    h1 {
+        font-size: 100px;
+    }
+
+    /* Intro */
+    h2 {
+        margin-bottom: 30px;
+        font-size:60px
+    }
+
+
+    #start_screen {
+        margin: 155px;
+    }
+
+
+    #start_game {
+        font-size: 60px;
+    }
+
+    #button_start {
+        margin: 30px;
+    }
+
+    #fname {
+        font-size:40px;
+    }
+
+    .label {
+        font-size: 40px;
+    }
+
+    /* Quiz_area */
+    h3 {
+        font-size: 50px;
+    }
+
+    #question {
+        margin-bottom: 30px;
+    }
+
+    #border {
+        padding: 50px;
+    }
+
+    .btn {
+        font-size: 32px;
+    }
+
+    /* Scores */
+    .scores {
+        font-size: 50px;
+    }
+
+}
+
 @media screen and (min-width: 2560px) {
 
     /* Header */
@@ -307,7 +378,15 @@ footer {
 
 
     #start_game {
-        font-size: 43px;
+        font-size: 100px;
+    }
+
+    #button_start {
+        margin: 40px;
+    }
+
+    #fname {
+        font-size:70px;
     }
 
     .label {
