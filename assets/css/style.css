@@ -54,21 +54,15 @@ h3 {
 }
 
 
-#border {
+/*#border {
     border: solid 2px;
     border-radius: 1pc;
     box-shadow: 0 2px 2px #3a3a3a;
     padding: 20px;
     background-color: rgb(0 0 0 / 30%);
-}
+} */
 
-.quiz_area {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 70vh;
-}
+
 
 .btn {
     margin: 10px 0;
@@ -95,20 +89,30 @@ h3 {
     text-align: center;
 }
 
-#form {
-
+#start_screen {
+    border: solid 2px;
+    border-radius: 1pc;
+    box-shadow: 0 5px 5px #3a3a3a;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(0 0 0 / 30%);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #ecad5f;
-    color: black;
-    border: solid 2px;
-    border-radius: 1pc;
-    padding: 10px;
-
-
+    align-content: center;
 }
+
+#input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px;
+    padding: 5px;
+    background-color: #650d13;
+    flex-wrap: wrap;
+    }
 
 #button_start {
     display: flex;
@@ -129,10 +133,6 @@ h3 {
 
 .fname {
     margin-bottom: 5px;
-}
-
-.lname {
-    margin-top: 5px;
 }
 
 .questions {
@@ -203,19 +203,19 @@ footer {
     }
 
     /* Intro */
-    #border {
-        font-size: 30px;
-    }
-
     #welcome {
         margin-bottom: 70px;
+    }
+
+    #start_screen {
+        margin:100px;
     }
 
     h2 {
         margin-bottom: 35px;
     }
 
-    .questions {
+    #start_game {
         font-size: 25px;
     }
 
@@ -245,20 +245,21 @@ footer {
     }
 
     /* Intro */
-    #border {
-        font-size: 35px;
+    h2 {
+        margin-bottom: 40px;
     }
 
     #welcome {
         margin-bottom: 100px;
     }
 
-    h2 {
-        margin-bottom: 40px;
+    #start_screen {
+        margin:130px;
     }
 
-    .questions {
-        font-size: 30px;
+
+    #start_game {
+        font-size: 33px;
     }
 
     /* Quiz_area */
@@ -290,25 +291,27 @@ footer {
 
     /* Header */
     h1 {
-        font-size: 80px;
+        font-size: 150px;
     }
 
     /* Intro */
-    #border {
-        font-size: 50px;
-
-    }
-
     h2 {
         margin-bottom: 50px;
+        font-size:100px
     }
 
-    .questions {
-        font-size: 40px;
+
+    #start_screen {
+        margin:200px;
+    }
+
+
+    #start_game {
+        font-size: 43px;
     }
 
     .label {
-        font-size: 40px;
+        font-size: 80px;
     }
 
     /* Quiz_area */

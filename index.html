@@ -17,59 +17,48 @@
   <body>
       <!-- Header -->
       <header>
-        <h1>Harry Potter Quiz <i class="fa-solid fa-wand-sparkles"></i>
+        <h1>Harry Potter Game <i class="fa-solid fa-wand-sparkles"></i>
     </h1>
     </header>
 
     <main>
       <!-- Main section Questions & Answers -->
       <section>
-        <div class="quiz_area">
 
-          <div id="border">
+        <div id="start_screen">
 
-<div id="start_screen">
-
-          <h2 class="hide_click" id="Welcome"> Welcome! To play the quiz enter your full name and click the start quiz button. </h2>
-               <form method="POST" action="https://formdump.codeinstitute.net" id="form">
-                    <label for="fname" class="label fname">First Name : </label>
-                    <input type="text" name="first_name" placeholder="Colin" required id="fname" class="questions fname">
+          <h2 class="hide_click" id="Welcome"> Welcome! To play the game enter your full name and click the start button. </h2>
+             
+          <div id="input">  
+            <label for="fname" class="label fname">Full Name: </label>
+            <input type="text" name="first_name" placeholder="Colin" required id="fname" class="questions fname">
+            </div>
             
-                    <label for="lname" class="label lname">Last Name: </label>
-                    <input type="text" name="second_name" placeholder="Galvin" required id="lname" class="questions lname"> </form>
-            
-                   <div id="button_start"><input type="button" name="submit" value="Start Quiz" id="start_game" class="questions"></div>
-                </form> 
-</div>
+          <div id="button_start"><input type="button" name="submit" value="Start" id="start_game" class="questions">
+          </div>
+                
+        </div>
+      </section>
+
+        <section>
+
           <div id="main" class="hide"> 
 
-            <div id="question"><h3>This is the question area?</h3></div>
-
-            <div class="buttons buttons_top">
-              <button class="btn" id="btn_1">Voldemort blablablabla</button>
-              <button class="btn" id="btn_2">Harry Potter blablablabla</button>
+            <div id="question"> 
+              <h3 id="questions">Welcome to the arena</h3>
+            
             </div>
-
-            <div class="buttons buttons_bottom">
-              <button class="btn" id="btn_3">this is the answer to this question</button>
-              <button class="btn" id="btn_4">this is the answer to this question</button>
-            </div>
-            </div>
+            <div class="buttons">
+              <button class="btn" id="btn_1">Accio</button>
+              <button class="btn" id="btn_2">Petrificus Totalus</button>
+              <button class="btn" id="btn_3">Stupefy</button>
+              <button class="btn" id="btn_4">Expelliarmus</button>
+              <button class="btn" id="btn_5">Confundo</button>
+              </div>
           
       </section>
 
       <!--Score counter-->
-      <section class="hide">
-        
-        <div id="scores">
-        <div class="scores" id="correct_score"><p>Correct Scores:</p></div>
-        <div class="scores" id="incorrect_score"><p>Incorrect Scores:</p></div>
-        </div>
-      
-      </div>
-    
-        
-      </section>
 
       <footer>
     <audio controls autoplay muted loop>
