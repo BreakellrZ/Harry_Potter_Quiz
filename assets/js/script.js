@@ -1,7 +1,7 @@
 // Start screen to Question screen
 document.getElementById('start_game').addEventListener('click', function(){
   document.getElementById('start_screen').style.display = "none"
-  document.getElementById('main').style.display = 'block'
+  document.getElementById('main').style.display = 'flex'
 }) 
 const questions = [
     {

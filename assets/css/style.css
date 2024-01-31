@@ -46,30 +46,23 @@ h3 {
     font-weight: 900;
     color: #000000;
     font-style: italic;
+    margin:70px;
 }
 
-#question {
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-
-/*#border {
-    border: solid 2px;
+ .main {border: solid 2px;
     border-radius: 1pc;
-    box-shadow: 0 2px 2px #3a3a3a;
+    box-shadow: 0 5px 5px #3a3a3a;
     padding: 20px;
+    margin: 20px;
     background-color: rgb(0 0 0 / 30%);
-} */
+    border: solid 2px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+} 
 
-
-
-.btn {
-    margin: 10px 0;
-    width: 100%;
-    text-align: left;
-    padding: 10px;
-}
 
 .btn:hover {
     background-color: #f5c17d;
@@ -78,14 +71,6 @@ h3 {
 .hide {
     display: none;
 
-}
-
-show{
-    display:block;
-}
-
-.hide_2 {
-    display:none;
 }
 
 /* Start Quiz form */
