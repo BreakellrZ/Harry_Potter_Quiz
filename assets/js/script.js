@@ -1,10 +1,8 @@
 // Start screen to Question screen
-document.getElementById('start_game').addEventListener('click', function() {
-    document.getElementById('start_screen').classList.add('hide');
-    document.getElementById('main').classList.remove('hide');
-    document.getElementById('scores_area').classList.remove('hide');
-});
-
+document.getElementById('start_game').addEventListener('click', function(){
+  document.getElementById('start_screen').style.display = "none"
+  document.getElementById('main').style.display = 'block'
+}) 
 const questions = [
     {
       question: "What house is Harry in?",

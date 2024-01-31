@@ -80,6 +80,14 @@ h3 {
 
 }
 
+show{
+    display:block;
+}
+
+.hide_2 {
+    display:none;
+}
+
 /* Start Quiz form */
 #Welcome {
     margin: 70px 0px;
