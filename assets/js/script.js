@@ -72,5 +72,7 @@ function playGame(userChoice) {
         scoreDraco = 0;
         score = 0;
       }
+      const draco_score = document.getElementById('draco_score')
+      draco_score.textContent = `Dracos score is ${scoreDraco}` ;
   }
 }
