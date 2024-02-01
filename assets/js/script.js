@@ -65,7 +65,7 @@ function playGame(userChoice) {
     (userChoice === 'stupefy' && computerChoice === 'confundo') ||
     (userChoice === 'confundo' && computerChoice === 'accio') ||
     (userChoice === 'confundo' && computerChoice === 'petrificus Totalus') ||
-    (userChoice === 'petrificus Totalus' && computerChoice === 'stupefy')
+    (userChoice === 'petrificus Totalus' && computerChoice === 'stupefy') ||
     (userChoice === 'petrificus Totalus' && computerChoice === 'expelliarmus')
     ) {
       result.textContent + ' YOU WIN THIS ROUND!';
