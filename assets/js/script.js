@@ -80,8 +80,16 @@ function playGame(userChoice) {
   }
 }
 
-currentScore = 0;
+/*
+let currentScore = 0;
+let score= 0;
+let add_Correct_Score = result.textContent += ' YOU WIN THIS ROUND!'
+let add_Incorrect_Score = result.textContent += ' You lose this round.'
 
-function addScore() {
+function addScore() { 
+  if (add_Correct_Score) {
+    score++ ;
+  }
 
 }
+*/ 
