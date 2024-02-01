@@ -14,6 +14,11 @@ document.getElementById('back').addEventListener('click', function(){
   document.getElementById('start_screen').style.display = 'flex'
 }) 
 
+document.getElementById('home').addEventListener('click', function(){
+  document.getElementById('main').style.display = "none"
+  document.getElementById('start_screen').style.display = 'flex'
+}) 
+
 /*
 // Game variables
 const computerChoiceDisplay = document.getElementById('draco');
