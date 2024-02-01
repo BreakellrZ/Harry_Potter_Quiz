@@ -63,7 +63,7 @@ function playGame(userChoice) {
         scoreDraco = 0;
       }
       const score_Div = document.getElementById('score')
-      score_Div.textContent = `${username}, your score is ${score}`;
+      score_Div.textContent = `${username}\'s score is ${score}`;
   } else {
       result.textContent += ' You lose this round.';
       scoreDraco++;
@@ -73,6 +73,6 @@ function playGame(userChoice) {
         score = 0;
       }
       const draco_score = document.getElementById('draco_score')
-      draco_score.textContent = `Dracos score is ${scoreDraco}` ;
+      draco_score.textContent = `Draco\'s score is ${scoreDraco}` ;
   }
 }

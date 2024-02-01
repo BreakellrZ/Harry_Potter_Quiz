@@ -56,7 +56,7 @@ margin:10px;
 #result {
     color:white;
     margin:30px;
-    font-size:10px;
+    font-size:15px;
     text-align:center;
 }
 
@@ -70,6 +70,10 @@ margin:10px;
     color:white;
     display:flex;
     justify-content: flex-start;
+}
+
+#home {
+    padding:10px;
 }
 
  .main {border: solid 2px;
@@ -105,7 +109,10 @@ margin:10px;
 }
 
 #all_scores {
-    display:flex;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
     justify-content: space-around;
 }
 
@@ -234,9 +241,24 @@ footer {
 /* Media query for max-height:480px; */
 @media (max-height: 460px) {
     .rules_points {
-        margin:0px;
-
+        margin:15px;
     }
+
+    #home {
+        padding:15px;
+        margin:20px;
+    }
+
+    #points {
+        margin:20px;
+    }
+
+    .main {
+        height:auto;
+        margin:35px;
+    }
+
+
 }
 
 
