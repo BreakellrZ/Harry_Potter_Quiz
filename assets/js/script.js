@@ -1,6 +1,8 @@
 let username = null;
+let score = 0;
+let maxScore = 10;
 
-// Start screen to Game arena screen
+// Start screen to Game arena screen + Username needed
 document.getElementById('start_game').addEventListener('click', function(){
   const input = document.getElementById('fname')
   if(input.value ===''){
@@ -53,7 +55,13 @@ function playGame(userChoice) {
     (userChoice === 'petrificus Totalus' && computerChoice === 'expelliarmus')
     ) {
       result.textContent += ' YOU WIN THIS ROUND!';
-      score++
+      score++;
+      if(score == maxScore) {
+        alert('Congrats you defeated Draco')
+        score = 0;
+      }
+      const score_Div = document.getElementById('score')
+      score_Div.innerText += `Well done ${username}, your score is ${score}`;
   } else {
       result.textContent += ' You lose this round.';
   }
