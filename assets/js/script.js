@@ -1,5 +1,6 @@
 let username = null;
 let score = 0;
+let scoreDraco = 0;
 let maxScore = 10;
 
 // Start screen to Game arena screen + Username needed
@@ -57,12 +58,19 @@ function playGame(userChoice) {
       result.textContent += ' YOU WIN THIS ROUND!';
       score++;
       if(score == maxScore) {
-        alert('Congrats you defeated Draco')
+        alert('Congrats you defeated Draco Well done !!')
         score = 0;
+        scoreDraco = 0;
       }
       const score_Div = document.getElementById('score')
       score_Div.innerText += `Well done ${username}, your score is ${score}`;
   } else {
       result.textContent += ' You lose this round.';
+      scoreDraco++;
+      if(scoreDraco == maxScore) {
+        alert('Unlucky! Draco defeated you, better luck next time!')
+        scoreDraco = 0;
+        score = 0;
+      }
   }
 }
