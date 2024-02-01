@@ -47,6 +47,7 @@ function generate_Draco_choice() {
 }
 */
 
+//Play Game function
 function playGame(userChoice) {
   const possibleActions = ['accio', 'petrificus Totalus', 'stupefy', 'expelliarmus', 'confundo'];
   const computerChoice = possibleActions[Math.floor(Math.random() * possibleActions.length)];
@@ -55,7 +56,7 @@ function playGame(userChoice) {
   result.textContent = `You chose ${userChoice}, computer chose ${computerChoice}.` 
 
   if (userChoice === computerChoice) {
-    result.textContent + ' WOW, a tie!';
+    result.textContent += ' WOW, a tie!';
 } else if (
     (userChoice === 'expelliarmus' && computerChoice === 'confundo') ||
     (userChoice === 'expelliarmus' && computerChoice === 'stupefy') ||
@@ -68,8 +69,14 @@ function playGame(userChoice) {
     (userChoice === 'petrificus Totalus' && computerChoice === 'stupefy') ||
     (userChoice === 'petrificus Totalus' && computerChoice === 'expelliarmus')
     ) {
-      result.textContent + ' YOU WIN THIS ROUND!';
+      result.textContent += ' YOU WIN THIS ROUND!';
   } else {
-      result.textContent + ' You lose this round.';
+      result.textContent += ' You lose this round.';
   }
+}
+
+currentScore = 0;
+
+function addScore() {
+
 }
