@@ -9,6 +9,11 @@ document.getElementById('rules').addEventListener('click', function(){
   document.getElementById('instructions').style.display = 'flex'
 }) 
 
+document.getElementById('back').addEventListener('click', function(){
+  document.getElementById('instructions').style.display = "none"
+  document.getElementById('start_screen').style.display = 'flex'
+}) 
+
 /*
 // Game variables
 const computerChoiceDisplay = document.getElementById('draco');

@@ -157,7 +157,7 @@ margin:10px;
 }
 
 #start_game:hover {
-    background-color: #650d13;
+    background-color: #ecad5f;
 }
 
 #fname {
@@ -182,7 +182,8 @@ margin:10px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 5px;
+    margin: 20px;
+    padding:10px;
 }
 
 
