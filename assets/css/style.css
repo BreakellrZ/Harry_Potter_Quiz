@@ -137,6 +137,17 @@ margin:10px;
     justify-content: center;
 }
 
+#rules {
+    padding: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-left:20px;
+}
+
+#rules:hover {
+    background-color: #ecad5f;
+}
 
 #start_game {
     padding: 10px;
@@ -161,6 +172,19 @@ margin:10px;
     font-size: 20px
 }
 
+/* Rules page */
+#points {
+    border:2px solid #ecad5f;
+    background-color: #3a3a3a;
+}
+.rules_points {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+}
+
 
 /* Footer */
 footer {
@@ -178,6 +202,11 @@ footer {
 @media (max-height: 700px) {
     .quiz_area {
         height: auto;
+    }
+
+    #rules_heading {
+        margin: 3px;
+        padding: 5px;
     }
 }
 
@@ -204,6 +233,12 @@ footer {
 
     #start_game {
         font-size: 25px;
+    }
+
+    #rules {
+        font-size: 25px;
+        margin-left: 35px;
+
     }
 
     #fname {
@@ -267,6 +302,11 @@ footer {
         font-size: 33px;
     }
 
+    #rules {
+        font-size: 33px;
+        margin-left:50px;
+    }
+
     #button_start {
         margin: 30px;
     }
@@ -323,6 +363,11 @@ footer {
 
     #start_game {
         font-size: 60px;
+    }
+
+    #rules {
+        font-size: 60px;
+        margin-left:70px;
     }
 
     #button_start {
@@ -388,6 +433,11 @@ footer {
 
     #start_game {
         font-size: 100px;
+    }
+
+    #rules{
+        font-size:100px;
+        margin-left:100px;
     }
 
     #button_start {
