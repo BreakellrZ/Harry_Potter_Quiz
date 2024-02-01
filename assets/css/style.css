@@ -104,11 +104,20 @@ margin:10px;
 
 }
 
+#all_scores {
+    display:flex;
+    justify-content: space-around;
+}
+
 #score {
-    color:white;
+    color:rgb(14, 146, 58);
     
 }
 
+#draco_score {
+    color:red;
+
+}
 
 /* Start game */
 #Welcome {
