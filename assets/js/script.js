@@ -1,66 +1,34 @@
-// Start screen to Question screen
+let username = null;
+
+// Start screen to Game arena screen
 document.getElementById('start_game').addEventListener('click', function(){
+  const input = document.getElementById('fname')
+  if(input.value ===''){
+    alert('Please enter a username to start');
+    return
+  }
+  username = input.value;
   document.getElementById('start_screen').style.display = "none"
   document.getElementById('main').style.display = 'flex'
 }) 
 
+//Start screen to rules screen
 document.getElementById('rules').addEventListener('click', function(){
   document.getElementById('start_screen').style.display = "none"
   document.getElementById('instructions').style.display = 'flex'
 }) 
 
+//Rules screen to start screen
 document.getElementById('back').addEventListener('click', function(){
   document.getElementById('instructions').style.display = "none"
   document.getElementById('start_screen').style.display = 'flex'
 }) 
 
+//Game arena screen to start screen
 document.getElementById('home').addEventListener('click', function(){
   document.getElementById('main').style.display = "none"
   document.getElementById('start_screen').style.display = 'flex'
 }) 
-
-/*
-// Game variables
-const computerChoiceDisplay = document.getElementById('draco');
-const userChoiceDisplay = document.getElementById('user');
-const resultDisplay = document.getElementById('result');
-const possiblechoices = document.getElementsByClassName('btn')
-let userChoice;
-let dracoChoice;
-let result_display;
-
-// Function when you click a button
-possiblechoices.addEventListener('click', function() {
-userChoice = 
-generate_Draco_choice()
-})
-
-// Dracos choices
-function generate_Draco_choice() {
-  const randomNumber = Math.floor(Math.random() * 5 ) + 1
-
-  if (randomNumber === 1) {
-    dracoChoice = 'Accio'
-  }
-
-  if (randomNumber === 2) {
-    dracoChoice = 'Petrificus Totalus'
-  }
-
-  if (randomNumber === 3) {
-    dracoChoice = 'Stupefy'
-  }
-
-  if (randomNumber === 4) {
-    dracoChoice = 'Expelliarmus'
-  }
-
-  if (randomNumber === 5) {
-    dracoChoice = 'Confundo'
-  }
-  userChoiceDisplay.innerHTML = dracoChoice
-}
-*/
 
 //Play Game function
 function playGame(userChoice) {
@@ -85,21 +53,8 @@ function playGame(userChoice) {
     (userChoice === 'petrificus Totalus' && computerChoice === 'expelliarmus')
     ) {
       result.textContent += ' YOU WIN THIS ROUND!';
+      score++
   } else {
       result.textContent += ' You lose this round.';
   }
 }
-
-/*
-let currentScore = 0;
-let score= 0;
-let add_Correct_Score = result.textContent += ' YOU WIN THIS ROUND!'
-let add_Incorrect_Score = result.textContent += ' You lose this round.'
-
-function addScore() { 
-  if (add_Correct_Score) {
-    score++ ;
-  }
-
-}
-*/ 
