@@ -63,7 +63,7 @@ function playGame(userChoice) {
         scoreDraco = 0;
       }
       const score_Div = document.getElementById('score')
-      score_Div.innerText += `Well done ${username}, your score is ${score}`;
+      score_Div.textContent = `${username}, your score is ${score}`;
   } else {
       result.textContent += ' You lose this round.';
       scoreDraco++;
