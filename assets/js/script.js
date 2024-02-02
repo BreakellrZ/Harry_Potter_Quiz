@@ -6,33 +6,33 @@ let maxScore = 10;
 
 // Start screen to Game arena screen + Username needed
 document.getElementById('start_game').addEventListener('click', function(){
-  const input = document.getElementById('fname')
+  const input = document.getElementById('fname');
   if(input.value ===''){
     alert('Please enter a username to start');
-    return
+    return;
   }
   username = input.value;
-  document.getElementById('start_screen').style.display = "none"
-  document.getElementById('main').style.display = 'flex'
-}) 
+  document.getElementById('start_screen').style.display = "none";
+  document.getElementById('main').style.display = 'flex';
+});
 
 //Start screen to rules screen
 document.getElementById('rules').addEventListener('click', function(){
-  document.getElementById('start_screen').style.display = "none"
-  document.getElementById('instructions').style.display = 'flex'
-}) 
+  document.getElementById('start_screen').style.display = "none";
+  document.getElementById('instructions').style.display = 'flex';
+}) ;
 
 //Rules screen to start screen
 document.getElementById('back').addEventListener('click', function(){
-  document.getElementById('instructions').style.display = "none"
-  document.getElementById('start_screen').style.display = 'flex'
-}) 
+  document.getElementById('instructions').style.display = "none";
+  document.getElementById('start_screen').style.display = 'flex';
+}); 
 
 //Game arena screen to start screen
 document.getElementById('home').addEventListener('click', function(){
-  document.getElementById('main').style.display = "none"
-  document.getElementById('start_screen').style.display = 'flex'
-}) 
+  document.getElementById('main').style.display = "none";
+  document.getElementById('start_screen').style.display = 'flex';
+});
 
 //Play Game function
 function playGame(userChoice) {
@@ -40,11 +40,11 @@ function playGame(userChoice) {
   const computerChoice = possibleActions[Math.floor(Math.random() * possibleActions.length)];
 
   const result = document.getElementById('result');
-  result.textContent = `You chose ${userChoice}, computer chose ${computerChoice}.` 
+  result.textContent = `You chose ${userChoice}, computer chose ${computerChoice}.`;
 
   if (userChoice === computerChoice) {
     result.textContent += ' WOW, a tie!';
-    result.style.color = "white"
+    result.style.color = "white";
 } else if (
     (userChoice === 'expelliarmus' && computerChoice === 'confundo') ||
     (userChoice === 'expelliarmus' && computerChoice === 'stupefy') ||
@@ -60,23 +60,23 @@ function playGame(userChoice) {
       result.textContent += ' YOU WIN THIS ROUND!';
       score++;
       if(score == maxScore) {
-        alert('Congrats you defeated Draco Well done !!')
+        alert('Congrats you defeated Draco Well done !!');
         score = 0;
         scoreDraco = 0;
       }
-      const score_Div = document.getElementById('score')
+      const score_Div = document.getElementById('score');
       score_Div.textContent = `${username}\'s score is ${score}`;
-      result.style.color = "green"
+      result.style.color = "green";
   } else {
       result.textContent += ' You lose this round.';
       result.style.color = "red";
       scoreDraco++;
       if(scoreDraco == maxScore) {
-        alert('Unlucky! Draco defeated you, better luck next time!')
+        alert('Unlucky! Draco defeated you, better luck next time!');
         scoreDraco = 0;
         score = 0;
       }
-      const draco_score = document.getElementById('draco_score')
+      const draco_score = document.getElementById('draco_score');
       draco_score.textContent = `Draco\'s score is ${scoreDraco}` ;
   }
 }
