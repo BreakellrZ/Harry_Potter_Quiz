@@ -43,6 +43,7 @@ function playGame(userChoice) {
 
   if (userChoice === computerChoice) {
     result.textContent += ' WOW, a tie!';
+    result.style.color = "white"
 } else if (
     (userChoice === 'expelliarmus' && computerChoice === 'confundo') ||
     (userChoice === 'expelliarmus' && computerChoice === 'stupefy') ||
@@ -64,8 +65,10 @@ function playGame(userChoice) {
       }
       const score_Div = document.getElementById('score')
       score_Div.textContent = `${username}\'s score is ${score}`;
+      result.style.color = "green"
   } else {
       result.textContent += ' You lose this round.';
+      result.style.color = "red";
       scoreDraco++;
       if(scoreDraco == maxScore) {
         alert('Unlucky! Draco defeated you, better luck next time!')
@@ -76,3 +79,4 @@ function playGame(userChoice) {
       draco_score.textContent = `Draco\'s score is ${scoreDraco}` ;
   }
 }
+
