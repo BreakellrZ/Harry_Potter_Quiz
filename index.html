@@ -16,27 +16,30 @@
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
-
+  
+  <!-- Body -->
   <body>
+
       <!-- Header -->
-      <header>
-        <h1>Harry Potter Game <i class="fa-solid fa-wand-sparkles"></i>
-    </h1>
+    <header>
+      <h1>Harry Potter Game <i class="fa-solid fa-wand-sparkles"></i>
+      </h1>
     </header>
 
     <main>
-      <!-- Main section Questions & Answers -->
+      <!-- Main Start Screen -->
       <section>
 
         <div id="start_screen">
-
           <h2 id="Welcome"> Welcome! To play the game enter your full name and click the start button. </h2>
-             
+
+          <!-- Username Input -->
           <div id="input">  
             <label for="fname" class="label fname">UserName: </label>
             <input type="text" name="first_name" placeholder="Harry Potter" required id="fname" class="questions fname">
           </div>
-            
+
+          <!-- Start and Rules Buttons-->
           <div id="button_start">
             <input type="button" name="submit" value="Start" id="start_game">
             <input type="button" name="submit" value="Rules" id="rules">
@@ -45,6 +48,7 @@
         </div>
       </section>
 
+      <!-- Rules page -->
       <section>
         <div id="instructions" class="hide main">
 
@@ -52,7 +56,7 @@
             <h3 id="rules_heading"> Rules of the game are as follows: </h3>
           </div>
 
-           
+           <!-- Rules -->
             <div id="points">
               <p class="rules_points"> -- First to 10 points wins the battle -- </p>
               <p class="rules_points"> -- Expelliarmus beats confundo & Confundo -- </p>
@@ -63,13 +67,15 @@
               <p class="rules_points"> -- Accio beats expelliarmus & Petrificus Totalus -- </p>
             </div>
 
+            <!-- Back button-->
             <div id="button_back">
               <input type="button" name="submit" value="Back" id="back">
             </div>
 
         </div>
       </section>  
-    
+
+        <!-- Game Arena -->
         <section>
           <div id="main" class="hide main"> 
 
@@ -77,6 +83,7 @@
               <h3 id="questions">Welcome to the arena</h3>
             </div>
 
+            <!-- Game Buttons -->
             <div class="buttons">
               <button class="btn" id="btn_1" onclick="playGame('accio')">Accio</button>
               <button class="btn" id="btn_2" onclick="playGame('petrificus Totalus')">Petrificus Totalus</button>
@@ -85,15 +92,17 @@
               <button class="btn" id="btn_5" onclick="playGame('confundo')">Confundo</button>
               </div> 
 
+              <!-- Result -->
               <p id="result"></p>
 
+            <!-- Scores -->
             <div id="all_scores">
               <p id="score" class="score_background"> </p>
               <p id="draco_score" class="score_background"> </p>
             </div>
 
 
-
+            <!-- Home button -->
               <div id="button_back_home">
                 <input type="button" name="submit" value="Home" id="home">
               </div>
@@ -101,17 +110,15 @@
           </div>
       </section>
 
-      <!--Score counter-->
-
+    <!-- Footer -->
     <footer>
       <audio controls autoplay muted loop>
         <source src="magical.mp3" type="audio/mpeg">
-        
       </audio>
     </footer>
     </main>
 
-      <!-- Scripts for JavaScript and FontAwesome Kit -->
+      <!-- Script for JavaScript and FontAwesome Kit -->
       <script src="assets/js/script.js"></script>
       <script
         src="https://kit.fontawesome.com/2ae31dc990.js"
