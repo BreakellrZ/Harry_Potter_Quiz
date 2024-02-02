@@ -1,3 +1,4 @@
+// Global Variables
 let username = null;
 let score = 0;
 let scoreDraco = 0;
