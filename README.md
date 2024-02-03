@@ -24,6 +24,7 @@
 ## Design of the project 
 
 ### Strategy plane 
+
 My overall strategy was to make a good looking website with a functioning game based on Harry Potter.
 
 - The website was aimed towards Harry Potter fans of all ages.
@@ -31,8 +32,8 @@ My overall strategy was to make a good looking website with a functioning game b
 - My strategy was to get Harry Potter fans to enjoy a easy to play game with an immersive experience with the audio music in the background and a cool AI background of Hogwarts to set the scene.
 
 
-
 ### Scope plane
+
 What's on and off the table? What features will be used?
 
 - Functioning buttons that the user can click to bring them from one area to another. 'Home', 'Rules', 'Game Arena'
@@ -54,6 +55,7 @@ The stucture is easy. It involves a header, and a footer, along with the main ar
 
 
 ### Skeleton plane
+
 To visualize the website, I used Wireframes for my ideas using Balsamiq. I created them on larger screens with the idea of smaller screens being very similar just a smaller screen.
 
 1. **Home page Example.**
@@ -104,6 +106,7 @@ Technologies used in this website were as follows:
 ## Testing and Validation
 
 ### Manual testing
+
 - I tested the live project on Google Chrome, Internet Explorer, and Firefox web browsers.
 - I tested the website on iphone, laptop and monitor screen sizes.
 - I played the game over and over to make sure it was working properly.
@@ -118,7 +121,7 @@ Technologies used in this website were as follows:
 - I used the Jigsaw CSS Vlaidator to validate my CSS code.
 ![CSS Validator](documentation/css_validator_pp2.png) 
 
-- I used JS HINT JavaScript Validator to validate my JavaScript code.
+- I used JS HINT JavaScript Validator to validate my JavaScript code. It says "One unused variable" but this is because that variable is actually linked with the HTML file and is being used.
 ![JS Validator](documentation/js_validator.png)
 
 - I used Lighthouse in dev tools to measure the Performance, Accessibility, Best Practices and SEO.
@@ -128,7 +131,11 @@ Technologies used in this website were as follows:
 
 ## Challenges/Bug fixes
 
+- I had a couple of warnings and one error in my HTML validation. These included some "Trailing slashes", and  "a stray end tag <div>". These were easily fixed by taking out the stray div and getting rid of the unnecessary trailing slahses. ![HTML warnings and errors](documentation/html_validator_errors.png)
 
+- Along side some HTML warnings and a error, my JavaScript validator said I had "One variable unused" which confused me because I knew that variable was being used within my HTML file but of course I did not have my html file inside of the JavaScript validator. ![JS Validator](documentation/js_validator.png)
+
+- Lastly I have not been able to overcome this challenge due to time but one thing I noticed was when the user finishes the game, The scores both reset to 0 in the back-end which is what is intended but Draco's side does not show up as "0 in the front-end" It stays on Draco's previous games score until they win a round and then it will show up as "Dracos score is 1" which is correct because both have been reset to 0 after the previous game finished and Draco won a round, but I am trying to fix it so both Draco and the User are both reset to 0 on the front end after each game. The Users score on the front-end and back-end always returns to a score of 0. The game still runs as intended and does not interfere with the game. ![Game challenge](documentation/game_challenge.png) ![Game challenge](documentation/game_challenge2.png)
 
 ## Deployment
 
