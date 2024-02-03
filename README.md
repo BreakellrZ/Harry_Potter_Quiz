@@ -70,7 +70,12 @@ To visualize the website, I used Wireframes for my ideas using Balsamiq. I creat
 
 ### Surface plane
 
+On the surface plane, the color scheme I went for was Harry Potter's house called 'Gryffindor'. I searched up Gryffindor colors on google found a Gryffindor scarf and used an eye dropper extension on google to get the correct colors. I used a dark background image of Hogwarts to make the colors pop out and give a eerie Gryffindor vibe as the user will be battling Draco in the Game Arena.
 
+- The colors used were #ecad5f & #650d13 
+- Gold and Red
+
+![Gryffindor](documentation/gryffindor.png)
 
 
 ## Features
@@ -78,6 +83,7 @@ To visualize the website, I used Wireframes for my ideas using Balsamiq. I creat
 
 
 ## Future Features
+
 
 
 
@@ -124,18 +130,18 @@ Technologies used in this website were as follows:
 - I used JS HINT JavaScript Validator to validate my JavaScript code. It says "One unused variable" but this is because that variable is actually linked with the HTML file and is being used.
 ![JS Validator](documentation/js_validator.png)
 
-- I used Lighthouse in dev tools to measure the Performance, Accessibility, Best Practices and SEO.
+- I used Lighthouse in dev tools to measure the Performance, Accessibility, Best Practices and SEO on both desktop and phones.
 ![LIGHTHOUSE testing for desktop](documentation/lighthouse_pp2_desktop.png)
 ![LIGHTHOUSE testing for phone](documentation/lighthouse_pp2_phone.png)
 
 
 ## Challenges/Bug fixes
 
-- I had a couple of warnings and one error in my HTML validation. These included some "Trailing slashes", and  "a stray end tag <div>". These were easily fixed by taking out the stray div and getting rid of the unnecessary trailing slahses. ![HTML warnings and errors](documentation/html_validator_errors.png)
+- I had a couple of warnings and one error in my HTML validation. These included some "Trailing slashes", and  "a stray end tag on a div". These were easily fixed by taking out the stray div and getting rid of the unnecessary trailing slahses. ![HTML warnings and errors](documentation/html_validator_errors.png)
 
-- Along side some HTML warnings and a error, my JavaScript validator said I had "One variable unused" which confused me because I knew that variable was being used within my HTML file but of course I did not have my html file inside of the JavaScript validator. ![JS Validator](documentation/js_validator.png)
+- Along side some HTML warnings and a error, my JavaScript validator said I had "One variable unused" which confused me because I knew that variable was being used within my HTML file but of course I did not have my html file inside of the JavaScript validator so this was the reason and was told it was ok. ![JS Validator](documentation/js_validator.png)
 
-- Lastly I have not been able to overcome this challenge due to time but one thing I noticed was when the user finishes the game, The scores both reset to 0 in the back-end which is what is intended but Draco's side does not show up as "0 in the front-end" It stays on Draco's previous games score until they win a round and then it will show up as "Dracos score is 1" which is correct because both have been reset to 0 after the previous game finished and Draco won a round, but I am trying to fix it so both Draco and the User are both reset to 0 on the front end after each game. The Users score on the front-end and back-end always returns to a score of 0. The game still runs as intended and does not interfere with the game. ![Game challenge](documentation/game_challenge.png) ![Game challenge](documentation/game_challenge2.png)
+- Lastly I have not been able to overcome this challenge due to time but one thing I noticed was when the user finishes the game, The scores both reset to 0 in the back-end which is what is intended but Draco's score does not show up as "0 in the front-end" It stays on Draco's previous games score until they win a round and then it will show up as "Dracos score is 1" which is correct because both have been reset to 0 after the previous game finished and Draco won a round, but I am trying to fix it so both Draco and the User are both reset to 0 on the front end after each game. The Users score on the front-end and back-end always returns to a score of 0. The game still runs as intended and this does not interfere with the fundamentals of the game its-self. ![Game challenge](documentation/game_challenge.png) ![Game challenge](documentation/game_challenge2.png)
 
 ## Deployment
 
