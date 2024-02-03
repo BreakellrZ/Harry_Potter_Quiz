@@ -24,19 +24,46 @@
 ## Design of the project 
 
 ### Strategy plane 
+My overall strategy was to make a good looking website with a functioning game based on Harry Potter.
+
+- The website was aimed towards Harry Potter fans of all ages.
+- I wanted the content to be relevant to the theme (Harry Potter).
+- My strategy was to get Harry Potter fans to enjoy a easy to play game with an immersive experience with the audio music in the background and a cool AI background of Hogwarts to set the scene.
 
 
 
 ### Scope plane
+What's on and off the table? What features will be used?
 
+- Functioning buttons that the user can click to bring them from one area to another. 'Home', 'Rules', 'Game Arena'
+- A username input field, for the user to enter their username. The users username will then show in the score area. 
+- A full background picture of Hogwarts
+- An Audio track so the user can turn on and off the music. It starts of muted. This is placed in the footer.
+- A header with large text indicating the website is a Harry Potter game.
+- A rules page to explain which spell beats which spell and that the first to 10 points is the winner.
+- The battle arena, where the user can click a selection of spells to use against the computer (Draco). These spells will be pressable buttons.
+- Text that shows if the user won or lost that round.
+- A scoreboard that shows the scores for both User and Draco.
+- An alert with a message saying who won the game.
 
 
 ### Structure plane
 
+The stucture is easy. It involves a header, and a footer, along with the main area which is covered in a nice looking border. The structure is the same for all sections. All styled using flexbox. It is conistent, predictable, learnable, and visible.
+
 
 
 ### Skeleton plane
+To visualize the website, I used Wireframes for my ideas using Balsamiq. I created them on larger screens with the idea of smaller screens being very similar just a smaller screen.
 
+1. **Home page Example.**
+![Balsamiq Home page example](documentation/home_balsamiq_pp2.png)
+
+2. **Rules page Example.**
+![Balsamiq Rules page example](documentation/rules_balsamiq.png)
+
+3. **Game Arena page Example.**
+![Balsamiq Game Arena page example](documentation/arena_balsamiq.png)
 
 
 ### Surface plane
@@ -55,15 +82,36 @@
 
 ## Technologies used
 
+Technologies used in this website were as follows:
+
+- HTML
+- CSS
+- JAVASCRIPT
+- GIT
+- GITPOD
+- BALSAMIQ WIREFRAMES
+- GOOGLE DEV TOOLS
+- GENCRAFT 
+- FONTAWESOME
+- GOOGLE FONTS
+- IMAGE RESIZER
+- W3C HTML Markup Validator
+- W3C Jigsaw CSS Validator
+- JS HINT JAVASCRIPT Validator
+
 
 
 ## Testing and Validation
 
 ### Manual testing
-
-
+- I tested the live project on Google Chrome, Internet Explorer, and Firefox web browsers.
+- I tested the website on iphone, laptop and monitor screen sizes.
+- I played the game over and over to make sure it was working properly.
+- I got to a score of 10, winning, and losing to make sure the alert popped up properly.
+- I checked all the buttons to make sure they are all working and bringing me to the correct areas.
 
 ### Validation
+
 
 
 
