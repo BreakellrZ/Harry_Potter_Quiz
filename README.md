@@ -59,10 +59,10 @@ To visualize the website, I used Wireframes for my ideas using Balsamiq. I creat
 1. **Home page Example.**
 ![Balsamiq Home page example](documentation/home_balsamiq_pp2.png)
 
-2. **Rules page Example.**
+1. **Rules page Example.**
 ![Balsamiq Rules page example](documentation/rules_balsamiq.png)
 
-3. **Game Arena page Example.**
+1. **Game Arena page Example.**
 ![Balsamiq Game Arena page example](documentation/arena_balsamiq.png)
 
 
@@ -121,6 +121,13 @@ Technologies used in this website were as follows:
 
 ## Deployment
 
+I deployed my website early, as this is recommended. The steps to deploying a website on GitHub pages are:
+
+1. Open the repository and go to the Settings tab.
+1. Navigate to the Pages tab in the left menu.
+1. Choose Deploy from a branch and select the according branch, main.
+1. Click save. Click code The link to the deployed website can be found on the right hand side under 'Deployments' and then under 'active deployments'
+   The link to my live site is: [Link to the live project here](https://breakellrz.github.io/Harry_Potter_Quiz/)
 
 
 ## Credit
