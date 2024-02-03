@@ -112,7 +112,18 @@ Technologies used in this website were as follows:
 
 ### Validation
 
+- I used W3C Markup Validation service to make sure my code had no errors. After some fixes my code came out perfect with no errors found.
+![HTML Validator](documentation/html_validator_pp2.png)
 
+- I used the Jigsaw CSS Vlaidator to validate my CSS code.
+![CSS Validator](documentation/css_validator_pp2.png) 
+
+- I used JS HINT JavaScript Validator to validate my JavaScript code.
+![JS Validator](documentation/js_validator.png)
+
+- I used Lighthouse in dev tools to measure the Performance, Accessibility, Best Practices and SEO.
+![LIGHTHOUSE testing for desktop](documentation/lighthouse_pp2_desktop.png)
+![LIGHTHOUSE testing for phone](documentation/lighthouse_pp2_phone.png)
 
 
 ## Challenges/Bug fixes
