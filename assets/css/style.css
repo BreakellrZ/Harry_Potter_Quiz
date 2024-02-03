@@ -16,6 +16,7 @@
 body {
     background: url("../images/hogwarts.png") no-repeat center center/cover;
     width: 100%;
+    background-attachment: fixed;
 }
 
 /* Header */
