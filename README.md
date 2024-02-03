@@ -70,7 +70,7 @@ To visualize the website, I used Wireframes for my ideas using Balsamiq. I creat
 
 ### Surface plane
 
-On the surface plane, the color scheme I went for was Harry Potter's house called 'Gryffindor'. I searched up Gryffindor colors on google found a Gryffindor scarf and used an eye dropper extension on google to get the correct colors. I used a dark background image of Hogwarts to make the colors pop out and give a eerie Gryffindor vibe as the user will be battling Draco in the Game Arena.
+On the surface plane, the color scheme I went for was Harry Potter's house called 'Gryffindor'. I searched up Gryffindor colors on google found a Gryffindor scarf and used an eye dropper extension on google to get the correct colors. I used a dark background image of Hogwarts to make the colors pop out and give a eerie Gryffindor vibe as the user will be battling Draco in the Game Arena. I also used the font Lakki Reddy fot the Harry potter Header.
 
 - The colors used were #ecad5f & #650d13 
 - Gold and Red
@@ -84,10 +84,10 @@ On the surface plane, the color scheme I went for was Harry Potter's house calle
 
 ## Future Features
 
--
-
-
-
+- I would really like to add more audio to the game.
+- I would like to add a unique audio for each spell everytime it is clicked by the user.
+- I would like to add a more intense audio file for the game arena.
+- I would also like to add an specific audio to be played with you win or lose the game.
 
 ## Technologies used
 
@@ -103,7 +103,6 @@ Technologies used in this website were as follows:
 - GENCRAFT 
 - FONTAWESOME
 - GOOGLE FONTS
-- IMAGE RESIZER
 - W3C HTML Markup Validator
 - W3C Jigsaw CSS Validator
 - JS HINT JAVASCRIPT Validator
@@ -158,6 +157,16 @@ I deployed my website early, as this is recommended. The steps to deploying a we
 
 
 ## Credit
+
+- I would first like to thank my code institute mentor, Brian O'Hare, for guiding me and providing tips and feedback during this project and helping me with some of the JavaScript code.
+
+- I would like to credit Code Institute. Their challenges and mock projects helped me learn the fundamentals of JavaScript.
+  
+- I would like to credit [Gencraft](https://gencraft.com/generate) for providing me with AI generated images which I used for my main background images.
+
+- I would like to credit [Fontawesome](https://fontawesome.com/), for the wand icon used in this project.
+
+- I would like to credit [Favicon](https://favicon.io), for the wand favicon.
 
 
 

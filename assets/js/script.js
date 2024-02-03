@@ -34,7 +34,7 @@ document.getElementById('home').addEventListener('click', function(){
   document.getElementById('start_screen').style.display = 'flex';
 });
 
-//Play Game function
+//Play Game function - Some help provided by my mentor Brian O'Hare
 function playGame(userChoice) {
   const possibleActions = ['accio', 'petrificus Totalus', 'stupefy', 'expelliarmus', 'confundo'];
   const computerChoice = possibleActions[Math.floor(Math.random() * possibleActions.length)];
