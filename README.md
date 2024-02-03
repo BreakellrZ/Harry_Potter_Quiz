@@ -84,6 +84,7 @@ On the surface plane, the color scheme I went for was Harry Potter's house calle
 
 ## Future Features
 
+-
 
 
 
@@ -141,7 +142,9 @@ Technologies used in this website were as follows:
 
 - Along side some HTML warnings and a error, my JavaScript validator said I had "One variable unused" which confused me because I knew that variable was being used within my HTML file but of course I did not have my html file inside of the JavaScript validator so this was the reason and was told it was ok. ![JS Validator](documentation/js_validator.png)
 
-- Lastly I have not been able to overcome this challenge due to time but one thing I noticed was when the user finishes the game, The scores both reset to 0 in the back-end which is what is intended but the losers score does not show up as "0 in the front-end" It stays on the losers previous games score until they win a round and then it will show up as "Dracos/Users score is 1" which is correct because both have been reset to 0 after the previous game finished and Draco/User won a round, but I am trying to fix it so both Draco and the User are both reset to 0 on the front end after each game. The game still runs as intended and this does not interfere with the fundamentals of the game its-self. ![Game challenge](documentation/game_challenge.png) ![Game challenge](documentation/game_challenge2.png)
+- I had some challenges with the responsiveness of the background image - I used various media quereys to figure it out but in the end background-attachment: fixed worked wonders for me.
+
+- Lastly I have not been able to overcome this challenge due to time but one thing I noticed was when the user finishes the game, The scores both reset to 0 in the back-end, which is what is intended but the losers score does not show up as "0 in the front-end", It stays on the losers previous games score until they win a round and then it will show up as "Dracos/Users score is 1" which is correct because both have been reset to 0 after the previous game finished and Draco/User won a round, but I am trying to fix it so both Draco and the User are both reset to 0 on the front end after each game. The game still runs as intended and this does not interfere with the fundamentals of the game. ![Game challenge](documentation/game_challenge.png) ![Game challenge](documentation/game_challenge2.png)
 
 ## Deployment
 
