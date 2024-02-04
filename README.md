@@ -80,31 +80,56 @@ On the surface plane, the color scheme I went for was Harry Potter's house calle
 ## Features
 
 - **My Header** was a basic h1 text of "Harry Potter Game", with a wand from font Awesome, and Lakki Reddy font to give it a Harry Potter style. The header is visible in all 3 areas 'Home', 'Rules', and 'Game Arena'
+<details>
+<summary> Header Feature </summary>
+
 ![Header](documentation/header_pp2.png)
+</details>
 
 - **The main div was located in the center of the screen surrounded by a border** Inside the home area was an h2 tag with a welcome message explaining to the user to enter a UserName before starting the game. Alongside this was a UserName input field for the user to put in their username. Their UserName would then be used in the Game arena. Also inside this main div and border is the 'Start' button - this button when pressed will take the user to the Game arena to start the game. There is also a 'Rules' button that users can press to bring them to the rules area.
+<details>
+<summary> Main div Feature </summary>
+
 ![Border main div](documentation/border_pp2.png)
+</details>
 
+<details>
+<summary> Audio Feature </summary>
 - **There is an audio feature in the footer**, that allows users to play some magical music in all three areas. The audio is muted at first and the user can un-mute the audio, press play, and pause the audio if they want. 
+
 ![Audio](documentation/audio_pp2.png)
+</details>
 
+<details>
+<summary> Rules Area Features </summary>
 - **In the 'Rules' area the main div is styled the same with the border** but there is a h3 tag that says "Rules of the game are as follows:" and then another section with the rules of the game in a border with a grey background and white text explaining which spells beat which spells. There is also a back button for users to click to go back to the home area.
+
 ![Rules area ](documentation/rules_pp2.png)
+</details>
 
+<details>
+<summary> Game Area Features </summary>
 - **In the 'Game Area' the main feature is the five buttons pressable buttons**. These buttons consist of different Harry Potter spells. The user has to pick which spell they want to use. After choosing a spell, some text will pop up explaining if you won, lost, or drew that round. Along with that, a score counter pops up keeping the scores of the user's and Draco's scores. This area also consists of the header, footer and an h3 tag that says "Welcome to the arena". There is also a 'Home' button for users to go back to the 'Home' area.
-![Game area](documentation/game_area_pp2.png)
 
+![Game area](documentation/game_area_pp2.png)
+</details>
+
+<details>
+<summary> Hover Feature </summary>
 -**There is a hover feature for each button**. All buttons once hovered over will give the yellow/orange Gryffindor color to show the user that it is clickable.
+
 ![Hover button](documentation/hover_button_pp2.png)
+</details>
 
 - **Lastly there is a pop up feature once the game is finished.** The pop up feature will tell the user if they won or lost the game. 
  <details>
- 
-  <summary> Pop up features </summary>
+ <summary> Pop up features </summary>
 
 ![Win pop up](documentation/win_pp2.png)
-![Lose pop up](documentation/lose_pp2.png)
 
+<br>
+
+![Lose pop up](documentation/lose_pp2.png)
 </details>
 
 
