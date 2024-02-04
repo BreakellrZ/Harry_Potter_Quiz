@@ -98,8 +98,10 @@ On the surface plane, the color scheme I went for was Harry Potter's house calle
 ![Hover button](documentation/hover_button_pp2.png)
 
 - **Lastly there is a pop up feature once the game is finished.** The pop up feature will tell the user if they won or lost the game. 
-[Winner pop up](documentation/win_pp2.png)
-[Loser pop up](documentation/lose_pp2.png)
+[Winner pop up](documentation/win_pp2.png) <details> <summary> Pop up features </summary>
+<img src="documentation/win_pp2.png">
+<img src="documentation/lose_pp2.png">
+</details>
 
 
 ## Future Features
