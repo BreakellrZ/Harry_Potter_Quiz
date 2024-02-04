@@ -66,6 +66,8 @@ function playGame(userChoice) {
       }
       const score_Div = document.getElementById('score');
       score_Div.textContent = `${username}\'s score is ${score}`;
+      const draco_score = document.getElementById('draco_score');
+      draco_score.textContent = `Draco\'s score is ${scoreDraco}` ;
       result.style.color = "green";
   } else {
       result.textContent += ' You lose this round.';
@@ -78,6 +80,8 @@ function playGame(userChoice) {
       }
       const draco_score = document.getElementById('draco_score');
       draco_score.textContent = `Draco\'s score is ${scoreDraco}` ;
+      const score_Div = document.getElementById('score');
+      score_Div.textContent = `${username}\'s score is ${score}`;
   }
 }
 
