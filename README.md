@@ -94,14 +94,12 @@ On the surface plane, the color scheme I went for was Harry Potter's house calle
 - **In the 'Game Area' the main feature is the five buttons pressable buttons**. These buttons consist of different Harry Potter spells. The user has to pick which spell they want to use. After choosing a spell, some text will pop up explaining if you won, lost, or drew that round. Along with that, a score counter pops up keeping the scores of the user's and Draco's scores. This area also consists of the header, footer and an h3 tag that says "Welcome to the arena". There is also a 'Home' button for users to go back to the 'Home' area.
 ![Game area](documentation/game_area_pp2.png)
 
--**There is a hover feature for each button**. 
-All buttons once hovered over will give the yellow/orange Gryffindor color to show the user that it is clickable.
+-**There is a hover feature for each button**. All buttons once hovered over will give the yellow/orange Gryffindor color to show the user that it is clickable.
 ![Hover button](documentation/hover_button_pp2.png)
 
-- **Lastly there is a pop up feature once the game is finished.** 
-The pop up feature will tell the user if they won or lost the game. 
-![Winner pop up](documentation/win_pp2.png)
-![Loser pop up](documentation/lose_pp2.png)
+- **Lastly there is a pop up feature once the game is finished.** The pop up feature will tell the user if they won or lost the game. 
+[Winner pop up](documentation/win_pp2.png)
+[Loser pop up](documentation/lose_pp2.png)
 
 
 ## Future Features
