@@ -79,16 +79,16 @@ On the surface plane, the color scheme I went for was Harry Potter's house calle
 
 ## Features
 
-- **My Header** was a basic h1 text of "Harry Potter Game", with a wand from font Awesome, and Lakki Reddy font to give it a Harry Potter style. The header is visible in all 3 areas 'Home', 'Rules', and 'Game Arena'
 <details>
 <summary> Header Feature </summary>
+- **My Header** was a basic h1 text of "Harry Potter Game", with a wand from font Awesome, and Lakki Reddy font to give it a Harry Potter style. The header is visible in all 3 areas 'Home', 'Rules', and 'Game Arena'
 
 ![Header](documentation/header_pp2.png)
 </details>
 
-- **The main div was located in the center of the screen surrounded by a border** Inside the home area was an h2 tag with a welcome message explaining to the user to enter a UserName before starting the game. Alongside this was a UserName input field for the user to put in their username. Their UserName would then be used in the Game arena. Also inside this main div and border is the 'Start' button - this button when pressed will take the user to the Game arena to start the game. There is also a 'Rules' button that users can press to bring them to the rules area.
 <details>
 <summary> Main div Feature </summary>
+- **The main div was located in the center of the screen surrounded by a border** Inside the home area was an h2 tag with a welcome message explaining to the user to enter a UserName before starting the game. Alongside this was a UserName input field for the user to put in their username. Their UserName would then be used in the Game arena. Also inside this main div and border is the 'Start' button - this button when pressed will take the user to the Game arena to start the game. There is also a 'Rules' button that users can press to bring them to the rules area.
 
 ![Border main div](documentation/border_pp2.png)
 </details>
